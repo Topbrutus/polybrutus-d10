@@ -1,5 +1,14 @@
 # POLYBRUTUS 10D - Exact conservative distance completion and spectral transition
 
+## Published scientific release
+
+- **Official Zenodo DOI:** [10.5281/zenodo.24408569](https://doi.org/10.5281/zenodo.24408569), [record 24408569](https://zenodo.org/records/24408569) — publicly verified via Zenodo REST API.
+- **Frozen source tag:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d10/tree/v0.1.0) at commit `dc2a45522e5e6794742b8a43de6c105a475d1e89`.
+- **GitHub Actions:** [D10 exact verification](https://github.com/Topbrutus/polybrutus-d10/actions/runs/44838977940), result `success` on frozen source commit.
+- **Zenodo artifacts:** tag source ZIP, full scientific PDF and JSON certificate containing all 105 labelled distances; public hashes validated.
+- **Scope:** exact mathematical model, not peer reviewed; no newly demonstrated physical dimension or new universal theorem claimed.
+
+
 **Author and research responsibility:** Gabriel St-Pierre (Topbrutus), independent researcher.  
 **Status:** Exact labelled Euclidean distance calculation; mathematical preprint, not peer reviewed.  
 **AI disclosure:** OpenAI ChatGPT (Astra) substantially assisted symbolic verification, checker design, spectral model, source code and writing, and is not an author.
