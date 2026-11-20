@@ -3,7 +3,7 @@
   "dimension": 10,
   "repository": "Topbrutus/polybrutus-d10",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 15,
   "pairs": 105,
   "affine_rank": 10,
@@ -12,15 +12,52 @@
   "parent_doi": "10.5281/zenodo.24408448",
   "parent_github_tag": "Topbrutus/polybrutus-d09@v0.1.0",
   "parent_tag_commit": "3e435ea423e829d1b6cbc43fe8913e7338d4cb2c",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "dc2a45522e5e6794742b8a43de6c105a475d1e89",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24408569,
+  "zenodo_doi": "10.5281/zenodo.24408569",
   "scientific_delta": "Exact dimension-10 labelled metric, independent certificate and double fourfold Laplacian multiplicity shift.",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "human_peer_review": "NOT_DONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted symbolic calculation, software and writing; not an author",
-  "verification": "Two independent mathematical programs passed on authorized workstation; CI pending",
-  "next_action": "Create private GitHub candidate, run exact CI, freeze tag, stage Zenodo and verify all checks before publishing."
+  "verification": {
+    "coord_rank": "PASS",
+    "edm_gram_rank": "PASS",
+    "edm_psd_factorization": "PASS",
+    "old_pairs_preserved": "91/91 PASS",
+    "new_pairs": "14/14 PASS",
+    "independent_metric": "105/105 PASS",
+    "negative_controls": "4/4 PASS",
+    "spectral_multiplicities": "15/2 mult4; 7 mult4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "Next user go begins D11, using frozen D10 v0.1.0 and verifying 16 vertices, 120 pairs, 105 previous distances and exact rank 11 before separate release.",
+  "github_public_verified": true,
+  "github_ci": {
+    "run_id": 44838977940,
+    "conclusion": "success",
+    "head_sha": "dc2a45522e5e6794742b8a43de6c105a475d1e89"
+  },
+  "github_main_note": "Postrelease DOI and integrity-index documentation may advance on main; scientific v0.1.0 tag is unchanged.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D10_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 128065,
+      "sha256": "92b7acf0e1b2aa78a4dacd233c3286402a0e1139009b559f4b545b563a1fab59"
+    },
+    {
+      "name": "POLYBRUTUS_10D_NOTE.pdf",
+      "size": 137847,
+      "sha256": "9c91a56c7c3ed25d97e7b9347490c773b75a0bb8cd475af1fe4b6616bf4536ce"
+    },
+    {
+      "name": "certificate_d10.json",
+      "size": 9513,
+      "sha256": "ca46803aafe9f20c1101074d2938311a1105db69af7e2e1b7841c4e1b5012281"
+    }
+  ],
+  "publication_approval": "Topbrutus defined 'go' as permission to complete next dimension with new Github repo and Zenodo release; explicit go received for D10."
 }
